@@ -1,0 +1,13 @@
+.search {
+  margin: 4rem 12rem 2.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+  .search {
+    margin: 4rem 6rem 2rem;
+    display: flex;
+    justify-content: center;
+  }
+}
