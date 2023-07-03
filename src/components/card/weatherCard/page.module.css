@@ -1,0 +1,82 @@
+.main {
+  margin: 2.5rem;
+  width: 24rem;
+  background-color: #fdfcfc;
+  box-shadow: 0 1px 1.25px 0;
+}
+
+.mainCardHeader {
+  margin-bottom: 1.25rem;
+}
+
+.location,
+.navigateBtn,
+.temperature {
+  font-weight: 500;
+}
+
+.location,
+.navigateBtn {
+  text-align: center;
+  font-size: 1.375rem;
+  font-style: normal;
+}
+
+.navigateBtn {
+  cursor: pointer;
+  align-self: center;
+}
+
+.weatherInfo,
+.weatherCondition,
+.mainCardHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.temperature {
+  font-size: 4rem;
+  line-height: 1;
+}
+
+.status {
+  display: flex;
+  gap: 10px;
+}
+
+.warningIcon,
+.goodIcon {
+  align-self: center;
+  font-size: 1.5rem;
+}
+
+.goodTxt,
+.warningTxt,
+.warningInfo,
+.goodInfo {
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+.warningTxt,
+.goodTxt {
+  text-transform: uppercase;
+}
+
+.warningIcon {
+  color: #ffac33d9;
+}
+
+.warningInfo,
+.warningTxt {
+  color: #bfaf1b;
+}
+
+.goodIcon {
+  color: rgb(32, 228, 29);
+}
+
+.goodInfo,
+.goodTxt {
+  color: rgb(134, 187, 54);
+}

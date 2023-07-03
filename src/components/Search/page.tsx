@@ -1,7 +1,7 @@
-'use client'
 import { Input } from 'antd'
 import { SearchProps } from 'antd/es/input'
 import style from './page.module.css'
+import WeatherCard from '../card/weatherCard/page'
 
 const Search = (props: SearchProps) => {
   return (
